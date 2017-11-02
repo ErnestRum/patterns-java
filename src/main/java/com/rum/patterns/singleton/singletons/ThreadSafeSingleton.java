@@ -1,6 +1,7 @@
 package com.rum.patterns.singleton.singletons;
 
 public final class ThreadSafeSingleton extends BaseSingleton {
+
     private static ThreadSafeSingleton instance;
 
     private ThreadSafeSingleton() {
